@@ -1,0 +1,67 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8,0,58,.7),rgba(8,0,58,.7)),  url('../../assets/hero.png'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero__text{
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+    
+}
+.hero__text-title{
+    font-size: 3.8rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.hero__text-description{
+    margin-bottom: 2rem;
+  
+}
+.hero__btn{
+    color: #212121;
+    padding: .8rem 1.4rem;
+    font-size: 1rem;
+    border-radius: 1.9rem;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex; /* Sirve para que los contenedores flexibles se muestre en línea */
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__btn-img{
+    width: 20px;
+    margin-left: .7rem;
+}
+
+@media(max-width: 840px){
+    .hero__text-title{
+        font-size: 2.4rem;
+    }
+}
+
+@media(max-width: 650px){
+    .hero__text-title{
+        font-size: 1.9rem;
+    }
+    .hero__text-description{
+        font-size: .9rem;
+        margin: 1rem auto 1.9rem;
+    }
+}
+
+@media(max-width: 480px){
+    .hero__text{
+        max-width: 90%;
+    }
+}
