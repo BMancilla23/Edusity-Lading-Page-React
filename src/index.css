@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+    cursor: pointer;
+}
+
+section {
+    width: 80%;
+}
+
+@media (max-width: 1200px) {
+    section {
+        width: 90%;
+    }
+}
