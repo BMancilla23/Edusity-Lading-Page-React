@@ -1,0 +1,28 @@
+.footer{
+    margin: .7rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #797979;
+    padding: 1rem 0;
+    width: 80%;
+}
+
+.footer__info-item{
+    list-style: none;
+    display: inline-block;
+    margin-left: 1.2rem;
+}
+
+@media (max-width: 750px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer__info-item{
+        margin: .7rem;
+    }
+    .footer__info{
+        margin-top: .7rem;
+    }
+}
