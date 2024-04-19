@@ -1,0 +1,44 @@
+.campus{
+    margin: 5rem auto;
+    text-align: center;
+}
+.campus__gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.7rem;
+}
+.campus__gallery-img{
+    width: 23%;
+    border-radius: 10px;
+}
+
+.campus__btn{
+    background-color: #212EA0;
+    color: #FFF;
+    padding: .9rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.campus__btn-icon{
+    width: 20px;
+    margin-left: .7rem;
+    cursor: pointer;
+    background-color: #212EA0; 
+}
+
+@media(max-width: 800px){
+    .campus__gallery{
+        flex-wrap: wrap;
+    }
+    .campus__gallery-img{
+        width: 48%;
+        margin-bottom: 1.2rem;
+    }
+}
