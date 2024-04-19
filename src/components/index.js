@@ -1,0 +1,10 @@
+export { About } from './About/About';
+export { Campus } from './Campus/Campus';
+export { Contact } from './Contact/Contact';
+export { Footer } from './Footer/Footer';
+export { Hero } from './Hero/Hero';
+export { Navbar } from './Navbar/Navbar';
+export { Programs } from './Programs/Programs';
+export { Testimonials } from './Testimonials/Testimonials';
+export { TitleBar } from './TitleBar/TitleBar';
+export { VideoPlayer } from './VideoPlayer/VideoPlayer';
