@@ -1,7 +1,19 @@
-import React from 'react'
+import { About, Campus, Contact, Footer, Hero, Navbar, Programs, Testimonials } from './components'
+
 
 export const App = () => {
   return (
-    <div>App</div>
+    <>
+      <Navbar/>
+      <Hero/>
+      <Programs/>
+      <About/>
+      <Campus/>
+      <Testimonials/>
+      <Contact/>
+      <Footer/>
+    </>
   )
 }
+
+
